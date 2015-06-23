@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<title><?php wp_title( '-', true, 'right' ); ?></title>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
