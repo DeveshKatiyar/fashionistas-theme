@@ -144,6 +144,8 @@ font-weight: 300;
 }
 -------*/
 
+
+
 button,
 input[type="button"],
 input[type="reset"],
@@ -167,6 +169,15 @@ input[type="submit"]:hover {
 	}
 
 /* New Search Button -------------- */
+.fa-search {
+	padding: 11px; 
+    border: none;
+    color:white;
+    background-color:#323333; /*matches FontAwesome default */
+    vertical-align: middle;
+    margin: 1px 0 0 -5px;
+	} 
+
 
 
 /* Tables */

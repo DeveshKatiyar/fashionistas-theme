@@ -15,18 +15,7 @@
 		<span class="screen-reader-text"><?php _ex( 'Search for:', 'label', 'athemes' ); ?></span>
 		<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Enter Search Text', 'placeholder', 'athemes' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php _ex( 'Search for:', 'label', 'athemes' ); ?>">
 	</label>
-
-	<input type="submit" class="search-submit" value="&#xf002;"> 
+<button type="submit" class="fa fa-search fa-lg search-submit">	</button> 
 	
 	
 </form>
-
-<!-- Font Awesome search icon: &#xf002; 
-Other things I've tried: 
-<button type="submit" class="btn btn-success">
-                <i class="icon-circle-arrow-right icon-large"></i> GO
-            </button> 
-This actually give a button there...soooooo
-            -->
-
-
