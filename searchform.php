@@ -9,6 +9,10 @@
 	<label>
 		<span class="screen-reader-text"><?php _ex( 'Search for:', 'label', 'athemes' ); ?></span>
 		<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Enter Search Text', 'placeholder', 'athemes' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php _ex( 'Search for:', 'label', 'athemes' ); ?>">
+		<input type="searching" class="search-submit">
 	</label>
-	<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Boo', 'submit button', 'athemes' ); ?>">
+	
 </form>
+
+
+<!-- <input class="search-submit" <?php echo printf( 'img src="search_.png"'); ?> -->

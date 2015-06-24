@@ -134,6 +134,15 @@ input[type="color"]:focus,
 			box-shadow: none;
 	}
 button,
+input[type="searching"] {
+background:url(search_.png);
+background-repeat: no-repeat;
+width:40px;
+height:40px;
+border: 0;
+}
+}
+button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] { /* SEARCH BUTTON */
@@ -145,16 +154,18 @@ input[type="submit"] { /* SEARCH BUTTON */
 	line-height: 26px;
 	text-transform: uppercase;
 	background: #333;
-	border: solid #666;
-	border-width: 0 0 3px;
+	border-width: 0 0 0;
 	}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
+input[type="searching"]:hover,
 input[type="submit"]:hover {
-	background: #666;
-	border-color: #333;
+	background: #A6EFD1;
 	}
+
+/* New Search Button -------------- */
+
 
 /* Tables */
 table {
