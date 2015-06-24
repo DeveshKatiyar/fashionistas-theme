@@ -133,6 +133,17 @@ input[type="color"]:focus,
 	   -moz-box-shadow: none;
 			box-shadow: none;
 	}
+/* Trying to use an ID to make it work...
+button,
+input#search- {
+font-family: FontAwesome;
+border: none;
+vertical-align: middle;
+font-size: 1.2em;
+font-weight: 300;
+}
+-------*/
+
 button,
 input[type="button"],
 input[type="reset"],
@@ -141,20 +152,22 @@ input[type="submit"] { /* SEARCH BUTTON */
 	color: #fff;
 	font-size: 1.2em;
 	font-weight: 300;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: FontAwesome, Oswald, Arial, Helvetica, sans-serif;
 	line-height: 26px;
 	text-transform: uppercase;
 	background: #333;
-	border: solid #666;
-	border-width: 0 0 3px;
+	border-width: 0 0 0;
 	}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
+input[type="searching"]:hover,
 input[type="submit"]:hover {
-	background: #666;
-	border-color: #333;
+	background: #A6EFD1;
 	}
+
+/* New Search Button -------------- */
+
 
 /* Tables */
 table {
